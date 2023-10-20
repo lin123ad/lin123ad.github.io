@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/12/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-html5+css3/css第五天/09-绝对定位水平垂直居中" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/09-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.622Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            /* 定位的盒子不能通过margin：0 auto实现水平居中v */
+            position: absolute;
+            /* 居中方法 */
+            /* 1.left走50% */
+            left: 50%;
+            /* 2. margin 负值 往左走自己盒子宽度的一半 */
+            margin-left: -100px;
+
+
+            /* 垂直居中同理 */
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/09-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/" data-id="clny27l3c003hcsucczsncftv" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/08-定位的叠放" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/08-%E5%AE%9A%E4%BD%8D%E7%9A%84%E5%8F%A0%E6%94%BE/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.621Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+    <style>
+        /* 数值可以是正整数，负数或者0，默认为auto，数值越大，盒子越靠上 */
+        /* 如果属性值相同，则按照书写顺序，后来居上 */
+        /* 数字后面不加单位 */
+        /* 只有定位的盒子才有z-index */
+        .w {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+        }
+
+        .box1 {
+            background-color: green;
+            /* 使用方法 */
+            z-index: 1;
+        }
+
+        .box2 {
+            background-color: red;
+            left: 50px;
+            top: 50px;
+            z-index: 2;
+        }
+
+        .box3 {
+            background-color: blue;
+            left: 100px;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1 w">eqw</div>
+    <div class="box2 w">qwe</div>
+    <div class="box3 w">dtye</div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/08-%E5%AE%9A%E4%BD%8D%E7%9A%84%E5%8F%A0%E6%94%BE/" data-id="clny27l3c003gcsuc4nc2ekxv" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/07-粘性定位" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/07-%E7%B2%98%E6%80%A7%E5%AE%9A%E4%BD%8D/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.620Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 了解为主 */
+        body {
+            height: 3000px;
+        }
+
+        .box {
+
+            /* 以浏览器的可视窗口为参照点移动元素 */
+            /* 粘性定位占有原先的位置 */
+            /* 必须添加 top left right bottom 中一个才有效 */
+            position: sticky;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/07-%E7%B2%98%E6%80%A7%E5%AE%9A%E4%BD%8D/" data-id="clny27l3c003icsucd7n84olx" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/06-固定定位小技巧" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/06-%E5%9B%BA%E5%AE%9A%E5%AE%9A%E4%BD%8D%E5%B0%8F%E6%8A%80%E5%B7%A7/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.618Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w {
+            width: 800px;
+            height: 1400px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+
+        .fixed {
+            position: fixed;
+            /* 1.走浏览器宽度的一半 */
+            left: 50%;
+            /* 2.利用margin走版心盒子宽度的一半 */
+            margin-left: 400px;
+
+            width: 50px;
+            height: 150px;
+            background-color: skyblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="fixed"></div>
+    <div class="w"></div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/06-%E5%9B%BA%E5%AE%9A%E5%AE%9A%E4%BD%8D%E5%B0%8F%E6%8A%80%E5%B7%A7/" data-id="clny27l3c003fcsucben341gm" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/05-固定定位" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/05-%E5%9B%BA%E5%AE%9A%E5%AE%9A%E4%BD%8D/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.617Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1.以浏览器的可视窗口为参照点移动元素 */
+        /* 跟父元素没有任何关系 */
+        /* 不随滚动条滚动 */
+        /* 2.不占有原先位置 */
+        .dj {
+            position: fixed;
+            top: 100px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dj">
+        <img src="images/pvp.png" alt="">
+    </div>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+    <p>ahasdbasbdubuabsdbasdbadub</p>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/05-%E5%9B%BA%E5%AE%9A%E5%AE%9A%E4%BD%8D/" data-id="clny27l3c003ecsuc4d35fidt" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/04-子绝父相的由来" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/04-%E5%AD%90%E7%BB%9D%E7%88%B6%E7%9B%B8%E7%9A%84%E7%94%B1%E6%9D%A5/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.616Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 子级绝对定位，不会占有位置，可以放到父盒子里面的任何一个地方，不会影响其他兄弟盒子 */
+        /* 父盒子需要加定位限制盒子在父盒子内显示 */
+        /* 父盒子布局时，需要占有位置，因此父亲只能是相对定位 */
+
+        /* 子绝父相不上永远不变的，如果父元素需要不占位置，子绝父绝 */
+    </style>
+</head>
+    
+<body>
+
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/04-%E5%AD%90%E7%BB%9D%E7%88%B6%E7%9B%B8%E7%9A%84%E7%94%B1%E6%9D%A5/" data-id="clny27l3b003ccsuc1que1wr6" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/03-相对定位-父元素有定位" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/03-%E7%9B%B8%E5%AF%B9%E5%AE%9A%E4%BD%8D-%E7%88%B6%E5%85%83%E7%B4%A0%E6%9C%89%E5%AE%9A%E4%BD%8D/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.614Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .yeye {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            background-color: pink;
+            padding: 50px;
+        }
+
+        .father {
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+        }
+
+        /* 此时子元素跑不掉 */
+
+        /* 如果祖先元素有定位（相对、绝对、固定定位），则以最近一级的有祖先元素为参考点移动位置 */
+
+        /* 绝对定位脱标后不占有原来的位置 */
+        .son {
+            position: absolute;
+            top: 10px;
+            left: 30px;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yeye">
+        <div class="father">
+            <div class="son"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/03-%E7%9B%B8%E5%AF%B9%E5%AE%9A%E4%BD%8D-%E7%88%B6%E5%85%83%E7%B4%A0%E6%9C%89%E5%AE%9A%E4%BD%8D/" data-id="clny27l3b003dcsucg6n369lz" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/02-绝对定位" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/02-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.613Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+        }
+
+        /* 如果没有祖先元素或者祖先元素没有定位，则以浏览器为准定位 */
+        /* 如果祖先元素有定位（相对、绝对、固定定位），则以最近一级的有祖先元素为参考点移动位置 */
+        
+        .son {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/02-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D/" data-id="clny27l3b003bcsucd6w9dask" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第五天/01-相对定位" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/01-%E7%9B%B8%E5%AF%B9%E5%AE%9A%E4%BD%8D/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.611Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 静态定位（了解即可，一般不使用） */
+        /* position:static */
+        /* 静态定位安照标准流，无偏移 */
+        .box1 {
+            /* 相对定位  */
+            /* 1.他是相对于自己原来的位置来移动的 */
+            /* 2.原来在标准流的位置继续占有，后面的盒子仍然以标准流的方式对待他 */
+            position: relative;
+            top: 100px;
+            left: 100px;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%94%E5%A4%A9/01-%E7%9B%B8%E5%AF%B9%E5%AE%9A%E4%BD%8D/" data-id="clny27l3b003acsucfnjbbhus" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第二天/26-综合案例-五彩导航" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%8C%E5%A4%A9/26-%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B-%E4%BA%94%E5%BD%A9%E5%AF%BC%E8%88%AA/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T03:36:24.586Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav a {
+        display: inline-block;
+        width: 120px;
+        height: 58px;
+        background-color: pink;
+        text-align: center;
+        line-height: 48px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .nav .bg1 {
+        background: url(images/bg1.png) no-repeat;
+    }
+
+    .nav .bg1:hover {
+        background: url(images/bg11.png) no-repeat;
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <a href="#" class="bg1">五彩导航</a>
+        <a href="#">五彩导航</a>
+        <a href="#">五彩导航</a>
+        <a href="#">五彩导航</a>
+        <a href="#">五彩导航</a>
+    </div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E4%BA%8C%E5%A4%A9/26-%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B-%E4%BA%94%E5%BD%A9%E5%AF%BC%E8%88%AA/" data-id="clny27l2o000mcsuce7kw2x50" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/11/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="page-number" href="/page/11/">11</a><span class="page-number current">12</span><a class="page-number" href="/page/13/">13</a><a class="page-number" href="/page/14/">14</a><span class="space">&hellip;</span><a class="page-number" href="/page/22/">22</a><a class="extend next" rel="next" href="/page/13/">Next &raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/register/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/list/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/index/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/common/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/base/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
