@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/10/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-html5+css3/css第六天/11-margin负值的巧妙运用" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/11-margin%E8%B4%9F%E5%80%BC%E7%9A%84%E5%B7%A7%E5%A6%99%E8%BF%90%E7%94%A8/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.154Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li {
+            position: relative;
+            float: left;
+            list-style: none;
+            width: 150px;
+            height: 200px;
+            border: 1px solid red;
+            margin-left: -1px;
+        }
+
+        /* ul li:hover {
+            1.如果盒子没有定位，则鼠标经过添加相对定位即可
+            position: relative;
+            border: 1px solid blue;
+        } */
+        /* 如果都有定位，则使用z-index */
+        ul li:hover {
+            z-index: 1;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/11-margin%E8%B4%9F%E5%80%BC%E7%9A%84%E5%B7%A7%E5%A6%99%E8%BF%90%E7%94%A8/" data-id="clny6skum003e3kuc2xy11pjs" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/10-多行文本溢出显示省略号" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/10-%E5%A4%9A%E8%A1%8C%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E6%98%BE%E7%A4%BA%E7%9C%81%E7%95%A5%E5%8F%B7/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.153Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 150px;
+            height: 80px;
+            background-color: pink;
+            margin: 100px auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* 弹性伸缩盒子模型显示 */
+            display: -webkit-box;
+            /* 限制在一个块元素显示的文本的行数 */
+            -webkit-line-clamp: 3;
+            /* 设置或检索伸缩盒对象的子元素的排列方式 */
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        阿布飞哈并设法把计划发布和姐夫把解放碑带就不澳海军部队231
+    </div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/10-%E5%A4%9A%E8%A1%8C%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E6%98%BE%E7%A4%BA%E7%9C%81%E7%95%A5%E5%8F%B7/" data-id="clny6skul003d3kucahm498s3" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/09-溢出的文字省略号显示" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/09-%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.151Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 单行文本溢出显示省略号--必须满足三个条件 */
+        /* 1.先强制一行内显示文本 */
+        /* white-space: nowrap; 默认normal 自动换行 */
+        /* 2.超出的部分隐藏 */
+        /* overflow：hidden */
+        /* 3.文字用省略号替代超出的部分 */
+        /* text-overflow：ellipsis */
+
+        div {
+            width: 150px;
+            height: 80px;
+            background-color: pink;
+            margin: 100px auto;
+            /* 如果文字显示不开自动换行 */
+            white-space: normal;
+            /* 如果文字显示不开也必须强制一行内显示 */
+            white-space: nowrap;
+            /* 溢出隐藏 */
+            overflow: hidden;
+            /* 3.文字用省略号替代超出的部分 */
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        3137178ihafuafk昂贵大大是固定高度噶山豆根撒大广赛i改过段各地该i事故的改革
+    </div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/09-%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/" data-id="clny6skul003c3kuc57wv606g" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/08-图片底侧有空白缝隙解决方案" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/08-%E5%9B%BE%E7%89%87%E5%BA%95%E4%BE%A7%E6%9C%89%E7%A9%BA%E7%99%BD%E7%BC%9D%E9%9A%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.150Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 空隙原因，行内块元素和文字的基线对齐 */
+        div {
+            border: 1px solid red;
+        }
+
+        /* 解决方案1 给图片添加vertical-align:middle | top| bottom (提倡使用) */
+        /* 解决方案2 把图片转化为块级元素 display：block */
+        img {
+            /* vertical-align: middle; */
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="images/ldh.jpg" alt="">
+    </div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/08-%E5%9B%BE%E7%89%87%E5%BA%95%E4%BE%A7%E6%9C%89%E7%A9%BA%E7%99%BD%E7%BC%9D%E9%9A%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" data-id="clny6skul003b3kucf2062l33" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/07-vertical-align实现行内块和文字垂直居中" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/07-vertical-align%E5%AE%9E%E7%8E%B0%E8%A1%8C%E5%86%85%E5%9D%97%E5%92%8C%E6%96%87%E5%AD%97%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.149Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 用于设置一个元素的垂直对齐方式，但他只是针对于行内元素或者行内块元素有效 */
+        img {
+            /* 底线 */
+            /* vertical-align: bottom; */
+            /* 基线 */
+            /* vertical-align: baseline; */
+            /* 中线 */
+            vertical-align: middle;
+            /* 顶线 */
+            /* vertical-align: top; */
+        }
+
+        textarea {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/ldh.jpg" alt="">我是刘德华
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>123123123123
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/07-vertical-align%E5%AE%9E%E7%8E%B0%E8%A1%8C%E5%86%85%E5%9D%97%E5%92%8C%E6%96%87%E5%AD%97%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/" data-id="clny6skul003a3kuc6ybb87cg" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/06-用户界面-表单轮廓和防止拖拽文本域" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/06-%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2-%E8%A1%A8%E5%8D%95%E8%BD%AE%E5%BB%93%E5%92%8C%E9%98%B2%E6%AD%A2%E6%8B%96%E6%8B%BD%E6%96%87%E6%9C%AC%E5%9F%9F/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.148Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,
+        textarea {
+            /* 取消表单轮廓 */
+            outline: none;
+        }
+
+        textarea {
+            /* 防止拖拽文本域 */
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/06-%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2-%E8%A1%A8%E5%8D%95%E8%BD%AE%E5%BB%93%E5%92%8C%E9%98%B2%E6%AD%A2%E6%8B%96%E6%8B%BD%E6%96%87%E6%9C%AC%E5%9F%9F/" data-id="clny6skul00393kucbb2h0ca0" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/05-用户界面-鼠标样式" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/05-%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2-%E9%BC%A0%E6%A0%87%E6%A0%B7%E5%BC%8F/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.147Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li style="cursor: default;">我是鼠标默认样式</li>
+        <li style="cursor: pointer;">我是鼠标小手样式</li>
+        <li style="cursor: move;">我是鼠标移动样式</li>
+        <li style="cursor: text;">我是鼠标文本样式</li>
+        <li style="cursor: not-allowed;">我是鼠标禁止样式</li>
+    </ul>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/05-%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2-%E9%BC%A0%E6%A0%87%E6%A0%B7%E5%BC%8F/" data-id="clny6skuk00373kuc6xhj0dxx" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/04-css三角制作" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/04-css%E4%B8%89%E8%A7%92%E5%88%B6%E4%BD%9C/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.145Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 0;
+            height: 0;
+            border-top: 10px solid pink;
+            border-bottom: 10px solid red;
+            border-left: 10px solid blueviolet;
+            border-right: 10px solid green;
+
+        }
+
+        .box2 {
+            width: 0;
+            height: 0;
+            /* 透明的 */
+            border: 10px solid transparent;
+            border-top-color: red;
+            margin-top: 100px;
+        }
+
+        .jd {
+            position: relative;
+            width: 120px;
+            height: 249px;
+            background-color: pink;
+        }
+
+        .jd span {
+            position: absolute;
+            right: 15px;
+            top: -10px;
+            width: 0;
+            height: 0;
+            /* 为了照顾兼容性 */
+            line-height: 0;
+            font-size: 0;
+            border: 5px solid transparent;
+            border-bottom-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="jd">
+        <span></span>
+    </div>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/04-css%E4%B8%89%E8%A7%92%E5%88%B6%E4%BD%9C/" data-id="clny6skuk00383kuchlxbh2bc" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/03-字体图标的使用" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/03-%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E7%9A%84%E4%BD%BF%E7%94%A8/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.144Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 字体声明 */
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?msx18z');
+            src: url('fonts/icomoon.eot?msx18z#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?msx18z') format('truetype'),
+                url('fonts/icomoon.woff?msx18z') format('woff'),
+                url('fonts/icomoon.svg?msx18z#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        span {
+            font-family: 'icomoon';
+            font-size: 200px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <span></span>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/03-%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E7%9A%84%E4%BD%BF%E7%94%A8/" data-id="clny6skuk00363kuca2zu7mx1" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-html5+css3/css第六天/02-拼出pink名字" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/02-%E6%8B%BC%E5%87%BApink%E5%90%8D%E5%AD%97/" class="article-date">
+  <time class="dt-published" datetime="2023-10-20T05:44:29.143Z" itemprop="datePublished">2023-10-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            display: inline-block;
+        }
+
+        .p {
+            width: 100px;
+            height: 112px;
+            background: url(images/abcd.jpg) no-repeat -493px -276px;
+
+        }
+
+        .i {
+            width: 60px;
+            height: 108px;
+            background: url(images/abcd.jpg) no-repeat -327px -142px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <span class="p"></span>
+    <span class="i"></span>
+    <span class="n"></span>
+    <span class="k"></span>
+</body>
+
+</html>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/20/html5+css3/css%E7%AC%AC%E5%85%AD%E5%A4%A9/02-%E6%8B%BC%E5%87%BApink%E5%90%8D%E5%AD%97/" data-id="clny6skuk00353kuchdevh6ow" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/9/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/22/">22</a><a class="extend next" rel="next" href="/page/11/">Next &raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/register/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/index/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/list/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/common/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/20/html5+css3/%E5%BF%83%E9%A3%9F%E8%B0%B1/menu/css/base/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
